@@ -19,13 +19,14 @@ void UConeRotator::BeginPlay()
 {
 	Super::BeginPlay();
 
+/*
 	//Find the owning Actor
 	AActor* Owner = GetOwner();
 	//Create a rotator YZX
 	FRotator NewRotation = FRotator(30.0f, 60.0f, 90.0f);
 	//Set door rotation
 	Owner->SetActorRotation(NewRotation);
-	// ...
+	*/
 	
 }
 
