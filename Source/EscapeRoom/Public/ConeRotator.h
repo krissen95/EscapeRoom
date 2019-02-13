@@ -22,11 +22,15 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:	
-
-
 		
 private:
 	UPROPERTY (VisibleAnywhere)
 	float OpenAngle = 90.0f;
+
+	/*UPROPERTY(EditAnywhere)
+	ATriggerVolume* PressurePlate;
+
+	UPROPERTY(EditAnywhere)
+	AActor* ActorThatOpens;*/
+	//ATriggerVolume* PressurePlate;
 };
